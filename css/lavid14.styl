@@ -1,8 +1,19 @@
+@import url (demo.css)
+
 letras_menu = #f4f2f3
 rosa_detalles = #d40d7d
 
+a
+	color #3e3e3e
+	text-decoration none
+
+ul, ol
+  list-style none
+
+@media only screen and (max-width: 768px)
+
 h1
-	margin 3em 0 0 0 
+  margin 3em 0 0 0 
 
 header
 	background #282828
@@ -12,31 +23,13 @@ header
 	position static
 	width 100%
 
-	nav
-		display inline-block
-		margin 0 auto
-
-		ul
-
-			li 
-				display inline-block
-				
-				a
-					color letras_menu
-					margin 0 1em
-					text-decoration none
-					
-				a:hover
-					color rosa_detalles
-
 #galeria
 	margin 0
 	overflow-x auto
 	padding 0
 	text-align center
 	white-space nowrap
-
-				
+		
 #slide
 	margin 6em 0 
 	padding 2em 0
@@ -49,15 +42,6 @@ header
 	img
 		display inline-block
 		width 150px
-
-.menu_gal
-	background #dbdbdb
-	display inline-block
-	height 300px
-	vertical-align top
-	width 192px
-
-	img
-		display inline-block
-		height 134.5px
-		width 192px
+    
+ul, ol
+  list-style none
